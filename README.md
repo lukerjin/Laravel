@@ -1,6 +1,6 @@
 # Learning Materials
 ### Video Courses
-[laracasts](https://laracasts.com)
+[Laracasts](https://laracasts.com)
 
 ### Tools
 [Oh My Zsh](https://ohmyz.sh/)
