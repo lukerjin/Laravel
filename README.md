@@ -8,14 +8,14 @@
 
 ### Set up Apache and PHP7 (Windows)
 1. Save Thread Safe (TS) PHP7 extract files on C:/PHP
-1. Add environment variable path for PHP
-1. Install Apache on C:/Apach
-1. Add AddType and Modul for PHP, php7apache2_4.dll can be find in php folder
+2. Add environment variable path for PHP
+3. Install Apache on C:/Apach
+4. Add AddType and Modul for PHP, php7apache2_4.dll can be find in php folder
 ```
   AddType  application/x-httpd-php         .php
 	AddType  application/x-httpd-php-source  .phps
   
   LoadModule php7_module modules/php7apache2_4.dll
 ```
-1. cd Apache/bin/
-1. httpd
+5. cd Apache/bin/
+6. httpd
