@@ -3,7 +3,7 @@
 [Laracasts](https://laracasts.com)
 
 ### Tools
-[Oh My Zsh](https://ohmyz.sh/)
+[Oh My Zsh](https://ohmyz.sh/)  
 [SequelPro](https://www.sequelpro.com/)
 
 ### Set up Apache and PHP7 (Windows)
