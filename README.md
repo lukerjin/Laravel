@@ -21,6 +21,7 @@
 6. httpd
 
 ### PHP Programming Skills
+1. Array dereferencing
 ```
 function getArray() {
     return array(1, 2, 3);
