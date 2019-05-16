@@ -29,3 +29,10 @@ function getArray() {
 
 $secondElement = getArray()[1];
 ```
+
+2. Variable
+$b = "b";
+echo "a" . "b"; // ab
+echo "a" . $b;  // ab
+echo "a $b c";  // a b c
+echo "a ${b}c"; // abc
