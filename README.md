@@ -4,7 +4,7 @@
 
 ### Tools
 [Oh My Zsh](https://ohmyz.sh/)
-
+[SequelPro](https://www.sequelpro.com/)
 
 ### Set up Apache and PHP7 (Windows)
 1. Save Thread Safe (TS) PHP7 extract files on C:/PHP
