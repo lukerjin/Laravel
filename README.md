@@ -12,10 +12,10 @@
 3. Install Apache on C:/Apach
 4. Add AddType and Modul for PHP, php7apache2_4.dll can be find in php folder
 ```
-  AddType  application/x-httpd-php         .php
+	AddType  application/x-httpd-php         .php
 	AddType  application/x-httpd-php-source  .phps
-  
-  LoadModule php7_module modules/php7apache2_4.dll
+
+	LoadModule php7_module modules/php7apache2_4.dll
 ```
 5. cd Apache/bin/
 6. httpd
