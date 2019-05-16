@@ -19,3 +19,12 @@
 ```
 5. cd Apache/bin/
 6. httpd
+
+### PHP Programming Skills
+```
+function getArray() {
+    return array(1, 2, 3);
+}
+
+$secondElement = getArray()[1];
+```
