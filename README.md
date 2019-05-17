@@ -31,8 +31,16 @@ $secondElement = getArray()[1];
 ```
 
 2. Variable
+
+```
 $b = "b";
 echo "a" . "b"; // ab
 echo "a" . $b;  // ab
 echo "a $b c";  // a b c
 echo "a ${b}c"; // abc
+```  
+```  
+$full_name = "a";
+$full_name .= " b";
+echo $full_name; // Prints: ab
+```  
