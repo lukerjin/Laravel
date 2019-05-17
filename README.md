@@ -20,6 +20,17 @@
 5. cd Apache/bin/
 6. httpd
 
+### CML Notes
+1. `PWD` pwd stands for “print working directory
+```
+$ pwd
+/home/user/workspace
+```  
+2. `touch` command creates a new file inside the working directory.
+```
+touch keyboard.txt
+```
+
 ### PHP Programming Skills
 1. Array dereferencing
 ```
