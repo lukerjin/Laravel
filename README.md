@@ -38,7 +38,34 @@ mv batman.txt spiderman.txt
 ```
 rm -r removes directories
 ```
+5. `uniq` stands for “unique” and filters out adjacent, duplicate lines in a file. 
+To remove all duplicate files:
+```
+$ sort deserts.txt | uniq
+```
 
+6. `grep` stands for “global regular expression print”. It searches files for lines that match a pattern and returns the results.
+grep -i enables the command to be case insensitive
+```
+$ grep -i Mount mountains.txt
+```
+
+Search content in directory files
+```
+grep -R Arctic /home/ccuser/workspace/geography
+```
+
+7. `sed`
+$ sed 's/snow/rain/' forests.txt 
+```
+s: stands for “substitution”. it is always used when using sed for substitution.
+snow: the search string, the text to find.
+rain: the replacement string, the text to add in place.
+In this case, sed searches forests.txt for the word “snow” and replaces it with “rain.” Importantly, the above command will only replace the first instance of “snow” on a line.
+$ sed 's/snow/rain/g' forests.txt 
+The above command uses the g expression, meaning “global”. 
+Here sed searches forests.txt for the word “snow” and replaces it with “rain”, globally. All instances of “snow” on a line will be turned to “rain”.
+```
 ### PHP Programming Skills
 1. Array dereferencing
 ```
