@@ -34,6 +34,10 @@ touch keyboard.txt
 ```
 mv batman.txt spiderman.txt
 ```  
+4. Remove directories
+```
+rm -r removes directories
+```
 
 ### PHP Programming Skills
 1. Array dereferencing
