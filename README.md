@@ -30,6 +30,10 @@ $ pwd
 ```
 touch keyboard.txt
 ```
+3. Rename file
+```
+mv batman.txt spiderman.txt
+```  
 
 ### PHP Programming Skills
 1. Array dereferencing
