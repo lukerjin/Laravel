@@ -90,3 +90,6 @@ $full_name = "a";
 $full_name .= " b";
 echo $full_name; // Prints: ab
 ```  
+
+### MYSQL
+(MySQL8.0的caching_sha2_password问题)[https://blog.csdn.net/s634772208/article/details/81155068]
