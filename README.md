@@ -90,6 +90,8 @@ $full_name = "a";
 $full_name .= " b";
 echo $full_name; // Prints: ab
 ```  
+3. String functions
+ucwords()
 
 ### MYSQL
 [MySQL8.0的caching_sha2_password问题](https://blog.csdn.net/s634772208/article/details/81155068)
